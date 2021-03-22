@@ -8,3 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-heroku02';
 }
+export class Usuario {
+  name : string;
+  pass : string;
+
+  constructor()
+  {
+    this.name = "" ;
+    this.pass = "" ;
+  }
+}
